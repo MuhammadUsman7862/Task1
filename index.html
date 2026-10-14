@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Muhammad Usman</title>
+  </head>
+  <body>
+
+    <header>
+      <h1>Muhammad Usman</h1>
+      <img src="profile-photo.jpg" alt="Profile photo of Muhammad Usman" width="200" height="200">
+      <nav>
+        <a href="#about">About</a> |
+        <a href="#skills">Skills</a> |
+        <a href="#education">Education</a> |
+        <a href="#links">Links</a> |
+        <a href="#contact">Contact</a> 
+      </nav>
+    </header>
+    <hr>
+    <main>
+      <div id="about">
+        <h2>About Me</h2>
+        <p>
+          I hold a <strong> <em>  Bachelor of Science in Computer </em> </strong>  Science
+          from the University of <small>WAH. I started my career as an
+          AI/ML and IT Intern at the Pakistan Meteorological
+          Department,</small> and currently started an internship at bloomrix.
+        </p>
+      
+    </div>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>javascript</li>
+          <li>Microsoft</li>
+        </ul>
+      </section>
+
+      <section id="education">
+        <h2>Education</h2>
+        <ol>
+          <li>BS Computer Science, University of Wah (2023)</li>
+          <li>Self-study: Full-Stack Software Engineer roadmap (in progress)</li>
+        </ol>
+      </section>
+
+      <section id="links">
+        <h2>Useful Links</h2>
+        <ul>
+          <li>
+            <a href="https://github.com/">GitHub</a>
+            - my projects
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/">LinkedIn</a>
+            - my profile
+          </li>
+          <li>
+            <a href="https://www.uow.edu.pk/">University of Wah</a>
+            - where I studied
+          </li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Fields marked with * are required.</p>
+
+        <form action="https://httpbin.org/post" method="post">
+
+          <h3>Contact Form<h3>Your Details</h3>
+
+            <p>
+              <label for="fullname">Full name *</label><br>
+              <input type="text" id="fullname" name="fullname" placeholder="Your full name" required>
+            </p>
+
+            <p>
+              <label for="email">Email *</label><br>
+              <input type="email" id="email" name="email" placeholder="you@gmail.com" required>
+            </p>
+
+            <p>
+              <label for="password">Password *</label><br>
+              <input type="password" id="password" name="password" minlength="3" required>
+            </p>
+
+            <p>
+              <label for="birthdate">Date of birth *</label><br>
+              <input type="date" id="birthdate" name="birthdate" required>
+            </p>
+
+            <p>
+              <label for="experience">Years of experience *</label><br>
+              <input type="number" id="experience" name="experience" min="0" max="50" value="0" required>
+            </p>
+          </h3>
+
+          <h3>
+            <h4>Gender *</h4>
+            <p>
+              <input type="radio" id="gender-male" name="gender" value="male" required>
+              <label for="gender-male">Male</label>
+
+              <input type="radio" id="gender-female" name="gender" value="female">
+              <label for="gender-female">Female</label>
+
+              <input type="radio" id="gender-other" name="gender" value="other">
+              <label for="gender-other">Other</label>
+            </p>
+        </h3>
+
+          <h3>
+            <h3>Interests</h3>
+            <p>
+              <input type="checkbox" id="interest-ai" name="interests" value="ai">
+              <label for="interest-ai">Artificial Intelligence</label>
+
+              <input type="checkbox" id="interest-web" name="interests" value="web">
+              <label for="interest-web">Web Development</label>
+
+              <input type="checkbox" id="interest-business" name="interests" value="business">
+              <label for="interest-business">Entrepreneurship</label>
+            </p>
+        </h3>
+
+          <h3>
+            <h4>Your Message</h4>
+            <p>
+              <label for="message">Message *</label><br>
+              <textarea id="message" name="message" rows="5" cols="40" placeholder="Write your message here" required></textarea>
+            </p>
+        </h3>
+
+          <p>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+          </p>
+
+        </form>
+      </section>
+
+    </main>
+    
+
+  </body>
+</html>
